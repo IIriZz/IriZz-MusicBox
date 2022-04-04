@@ -1,69 +1,32 @@
-# @client.command()
-# async def play(ctx, url: str):
-#     song_there = os.path.isfile('song.mp3')
-#
-#     try:
-#         if song_there:
-#             os.remove('song.mp3')
-#     except PermissionError:
-#         await ctx.send('kgjg,.h')
-#         return
-#
-#     voice_channel = discord.utils.get(ctx.guild.voice_channels, name='General')
-#     await voice_channel.connect()
-#     voice = discord.utils.get(client.voice_clients, guild=ctx.guild)
-#
-#     await ctx.send(f'Какой-то гондон, по имени {ctx.message.author}, запустил это')
-#
-#     ydl_options = {
-#         'format': 'bestaudio/best',
-#         'postprocessors': [{
-#             'key': 'FFmpegExtractAudio',
-#             'preferredcodec': 'mp3',
-#             'preferredquality': '192'
-#         }]
-#     }
-#     with youtube_dl.YoutubeDL(ydl_options) as ydl:
-#         ydl.download([url])
-#     for file in os.listdir('./'):
-#         if file.endswith('.mp3'):
-#             os.rename(file, 'song.mp3')
-#     voice.play(discord.FFmpegPCMAudio('song.mp3'))
-#
-#
-# @client.command()
-# async def leave(ctx):
-#     voice = discord.utils.get(client.voice_clients, guild=ctx.guild)
-#     if voice.is_connected():
-#         await voice.disconnect()
-#     else:
-#         await ctx.send('Бот так-то и не говорит ._.')
-#
-#
-# @client.command()
-# async def pause(ctx):
-#     voice = discord.utils.get(client.voice_clients, guild=ctx.guild)
-#     if voice.is_playing():
-#         voice.pause()
-#     else:
-#         await ctx.send(f'{ctx.message.author}, ты глухой? Музыка вообще-то не играет ._.')
-#
-#
-# @client.command()
-# async def resume(ctx):
-#     voice = discord.utils.get(client.voice_clients, guild=ctx.guild)
-#     if voice.is_paused():
-#         voice.resume()
-#     else:
-#         await ctx.send('Музыка вообще-то уже давно играет ._.')
-#
-#
-# @client.command()
-# async def stop(ctx):
-#     voice = discord.utils.get(client.voice_clients, guild=ctx.guild)
-#     voice.stop()
-#
-#
-# if __name__ == '__main__':
-#     token = open('TOKEN.txt', 'r').readline()
-#     client.run(token)
+﻿гондон
+педрила
+дебил
+дурачок
+фуфлыга
+говноед
+даун
+драчун
+идиот
+кретин
+лох
+мудак
+гей
+пипидастр
+пидор
+жопошник
+негр
+хуй
+пятиглавый спермаглот
+заглотус
+еблан
+детдомовец
+минипиг
+уёбок
+доедалус
+обдристыш
+мидас в жопе
+гибискус
+фикус
+бешеный пердун
+бедни
+клоун
